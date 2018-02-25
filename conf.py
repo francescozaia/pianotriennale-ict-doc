@@ -75,6 +75,10 @@ html_theme = 'sphinx_italia_theme'
 
 html_theme_path = ["_themes", ]
 
+html_theme_options = {
+    'collapse_navigation': True
+}
+
 # -- ReadTheDoc requirements and local template generation---------------------
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
